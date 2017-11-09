@@ -12,3 +12,7 @@ Dimension Railings In a revit view
   -? Where is the bottom of this shaded region
 7. Place tag with rail name on rail in view.
 8. Assign this command to a button in the pyRevit console.
+
+
+Name railings based on placement: With rooms defined, as railings are placed, they get numbered based on type, room name, and placement order. Append this string to the "Mark" parameter for tagging.
+The rail schedule must get updated as railings are placed on sheets. Generate default descriptions and elevation callout tag to automatically populate the schedule.
